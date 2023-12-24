@@ -1,0 +1,284 @@
+@media only screen and (min-width:200px) and (max-width:557px) {
+    .navsec{
+        flex-direction: column;
+        align-items: start;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .logo>span {
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 25px;
+        color: #fff;
+        top: 10px;
+    }
+
+    .menuBar {
+        display: none;
+    }
+    .menuBarShow{
+        display: block;
+    }
+    .menuBar>ul{
+        flex-direction: column;
+    }
+    .banner {
+
+        padding: 0 12px 16px 12px;
+    }
+
+    .bannerInner {
+        flex-direction: column;
+    }
+
+    .bannerService h2 {
+        font-size: 19.2px;
+        padding: 0;
+    }
+
+    .bannerService {
+        margin-bottom: 30px;
+    }
+
+    .topInner,
+    .topInnerbottem,
+    .clientView,
+    .acadBlockInner,
+    .letInner,
+    .whatInner,
+    .whatRight,
+    .sopBlockInner,
+    .yourimgs,
+    .haveInner,
+    .visaBlockInner,
+    .footerInner,
+    .scrollSecInner,
+    .youtubeinner,
+    .loremsimpleInner {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Mnone {
+        display: none;
+    }
+
+    .acadBlockInner .acadBlock {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .letInner,
+    .sopBlockInner,
+    yourimgs {
+        text-align: center;
+        gap: 20px;
+    }
+
+    .what {
+        padding: 20px 0;
+    }
+
+    .whatRight {
+        margin-bottom: 10px;
+    }
+
+    .topContent h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 27.5px;
+    }
+
+    .topContent p {
+        font-size: 13.5px;
+        font-weight: 400;
+        line-height: 20.25px;
+    }
+
+    .topForm input {
+        height: 42px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .topForm textarea {
+        width: 100%;
+        font-size: 16px;
+
+    }
+
+    .topForm h2 {
+        font-size: 22.96px;
+        line-height: 27.5px;
+
+    }
+
+    .reviewInner h2,
+    .letInner h2 {
+        font-size: 28px;
+        line-height: 27.5px;
+
+    }
+
+    .academicInner h2 {
+        font-size: 25px;
+    }
+
+    .whatContent h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .sopInner h2 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+
+    .yourInner h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .havecontent h1 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+    }
+
+    .visaInner h2 {
+        font-size: 35px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+
+    .mfixedFooter {
+        display: block;
+    }
+
+    .mfixedFooter {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding: 0px 0;
+        background-color: var(--secondary-color);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mfixedFooter a {
+        flex-basis: 33%;
+        color: white;
+        padding: 10px 10px;
+        border-right: 2px solid white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .footerInner {
+        line-height: 30px;
+    }
+
+    .sIconouter {
+        margin-top: 15px;
+    }
+
+    .visaInner h2 {
+        padding: 0 10px;
+    }
+
+    .youtubeinner iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .scrollBlock {
+        margin-bottom: 20px;
+    }
+
+    .loremInner,
+    .countryInner .acadBlockInner {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .countryInner .acadBlockInner {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .loremInner .loremImg {
+        flex-basis: 45%;
+        margin: 0;
+    }
+
+    .countryInner .acadBlockInner .acadBlock {
+        flex-basis: 45%;
+        margin-bottom: 0px;
+    }
+
+    .canadaInner {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .canadaBlock {
+        flex-basis: 45%;
+    }
+
+    .visabr {
+        padding: 20px;
+    }
+
+    .faq h2 {
+        font-size: 25px;
+    }
+
+    .faqInner,
+    .personilize {
+        padding: 20px;
+    }
+
+    .personilizeInner h1 {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+    .topVisa .topContent {
+        margin-bottom: 20px;
+    }
+
+    .howinner h2 {
+        font-size: 24px;
+    }
+
+    .howinner {
+        padding: 20px;
+
+    }
+
+    .loremLeft h2 {
+        padding-top: 35px;
+        padding-bottom: 10px !important;
+        font-size: 32px;
+    }
+
+    .loremRight img {
+        height: 220px;
+    }
+
+    .onlyLoremouter .onlyLorem h2 {
+        font-size: 25px;
+    }
+}
